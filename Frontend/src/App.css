@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Doodle+Triangles&display=swap');*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body #Navbar1
+{
+    background: black !important;
+
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding: .5rem 5rem;
+
+    border-style: none;
+}
+.navbar .navbar-brand
+{
+    font-size:25px;
+    color:#0f0f0f
+    
+}
+#navbarSupportedContent a
+{
+    padding-top:15px;
+    color:#fff;
+    border-bottom: 4px solid transparent !important;;
+}
+#navbarSupportedContent a:hover
+{
+    border-bottom: 2px solid rgb(255, 0, 34,1) !important;;
+
+}
+#navbarSupportedContent #login
+{
+    color:#fff;
+    
+}
+#navbarSupportedContent #Register
+{
+    background: rgb(233, 9, 173);
+    color:#fff;
+    margin-left:5px;
+    border-radius:15px ;
+}
+
+/* loader */
+.loader
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20%;
+    width:80px;
+    height:80px;
+    padding-left:0;
+
+}
+.loader:after
+{
+    content: '';
+    display:block;
+    width:64px;
+    height:64px;
+    margin:8px;
+    border-radius: 50%;
+    border:6px solid #fa9c23;
+    border-color:#fa9c23 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0%{
+transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+

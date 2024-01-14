@@ -1,0 +1,264 @@
+[
+    {
+        "workshopid":"caw-01",
+        "name": "Mastering structural excellence: ETABS workshop for RCC framed structures",
+        "description":"LoremIpsum",
+        "organizing_department":"Civil/Arch",
+        "contact_number":"8220466072",
+        "registration_fee": 200,
+        "images":"/Assets/etabs.jpg"
+    
+    },
+    {
+        "workshopid":"caw-02",
+        "name": "Analysis of wind force on tall buildings using CFD",
+        "description":"LoremIpsum",
+        "organizing_department":"Civil/Arch",
+        "contact_number":"8220466072",
+    
+        "registration_fee": 200,
+        "images":"/Assets/cfd.jpg"
+    
+    },
+    {
+        "workshopid":"caw-03",
+        "name": "Mural Painting Workshop",
+        "description":"LoremIpsum",
+        "organizing_department":"Civil/Arch",
+        "contact_number":"8220466072",
+    
+        "registration_fee": 200,
+        "images":"/Assets/mural.jpg"
+    },
+    {
+        "workshopid":"eew-01",
+        "name": "Python Programming for Electrical Engineers",
+        "description":"LoremIpsum",
+        "organizing_department":"EEE",
+        "contact_number":"9442324535",
+    
+        "registration_fee": 200,
+        "images":"/Assets/python.jpg"
+    },
+    {
+        "workshopid":"eew-02",
+        "name": "Matlab for Engineering Applications",
+        "description":"LoremIpsum",
+        "organizing_department":"EEE",
+        "contact_number":"9442324535",
+    
+        "registration_fee": 200,
+        "images":"/Assets/MATLAB3.jpg"
+    
+    },
+    {
+        "workshopid":"ecw-01",
+        "name": "Machine Learning with MATLAB" ,
+        "description":"LoremIpsum",
+        "organizing_department":"ECE/BME",
+        "contact_number":"9944429388",
+    
+        "registration_fee": 200,
+        "images":"/Assets/matlab2.webp"
+    
+    },
+    {
+        "workshopid":"ecw-02",
+        "name": "Powering IoT using Arduino",
+        "description":"LoremIpsum",
+        "organizing_department":"ECE/BME",
+        "contact_number":"9944429388",
+    
+        "registration_fee": 200,
+        "images":"/Assets/arduino.jpg"
+    
+    },
+    {
+        "workshopid":"ecw-03",
+        "name": "Internet of Things with Raspberry Pi",
+        "description":"LoremIpsum",
+        "organizing_department":"ECE/BME",
+        "contact_number":"9944429388",
+    
+        "registration_fee": 200,
+        "images":"/Assets/Internet of Things with Raspberry Pi.jpg"
+    
+    },
+    {
+        "workshopid":"ecw-04",
+        "name": "Deep Learning with Python",
+        "description":"LoremIpsum",
+        "organizing_department":"ECE/BME",
+        "contact_number":"9944429388",
+    
+        "registration_fee": 200,
+        "images":"/Assets/deep.jpg"
+    
+    },
+    {
+        "workshopid":"ecw-05",
+        "name": "Deep Learning using FPGA",
+        "description":"LoremIpsum",
+        "organizing_department":"ECE/BME",
+        "contact_number":"9944429388",
+    
+        "registration_fee": 200,
+        "images":"/Assets/Deep Learning on FPGA.jpg"
+    
+    },
+    {
+        "workshopid":"ecw-06",
+        "name": "TensorFlow Unwrapped-Biomedical Applications",
+        "description":"LoremIpsum",
+        "organizing_department":"ECE/BME",
+        "contact_number":"9944429388",
+    
+        "registration_fee": 200,
+        "images":"/Assets/tensor.png"
+    
+    },
+    {
+        "workshopid":"csw-01",
+        "name": "The Future of Front End Development: Building with React",
+        "description":"LoremIpsum",
+        "organizing_department":"CSE/IT/AIDS",
+        "contact_number":"9080055715",
+    
+        "registration_fee": 200,
+        "images":"/Assets/react.jpg"
+    
+    },
+    {
+        "workshopid":"csw-02",
+        "name": "Exploratory Data Analytics and Data Visualization",
+        "description":"LoremIpsum",
+        "organizing_department":"CSE/IT/AIDS",
+        "contact_number":"9080055715",
+    
+        "registration_fee": 200,
+        "images":"/Assets/Exploratory Data Analytics.jpg"
+    
+    },
+    {
+        "workshopid":"csw-03",
+        "name": "Mastering Full Stack Development:Building websites with Next.js and Django",
+        "description":"LoremIpsum",
+        "organizing_department":"CSE/IT/AIDS",
+        "contact_number":"9080055715",
+    
+        "registration_fee": 200,
+        "images":"/Assets/next.jpg"
+    
+    },
+    {
+        "workshopid":"mew-01",
+        "name": "Finite Element Analysis Using ANSYS",
+        "description":"LoremIpsum",
+        "organizing_department":"Mech",
+        "contact_number":"8220207150",
+    
+        "registration_fee": 200,
+        "images":"/Assets/ansys.png"
+    
+    },
+    {
+        "workshopid":"mew-02",
+        "name": "Renewable Energy Technologies",
+        "description":"LoremIpsum",
+        "organizing_department":"Mech",
+        "contact_number":"8220207150",
+    
+        "registration_fee": 200,
+        "images":"/Assets/Renewable Quiz.jpg"
+    
+    },
+    {
+        "workshopid":"mew-03",
+        "name": "Part and Assembly modelling using Solidworks",
+        "description":"LoremIpsum",
+        "organizing_department":"Mech",
+        "contact_number":"8220207150",
+    
+        "registration_fee": 200,
+        "images":"/Assets/solid.png"
+    
+    },
+    {
+        "workshopid":"mew-04",
+        "name": "Simulation in Multiphysics software - COMSOL",
+        "description":"LoremIpsum",
+        "organizing_department":"Mech",
+        "contact_number":"8220207150",
+    
+        "registration_fee": 200,
+        "images":"/Assets/comsol.jpg"
+    
+    },
+    
+    {
+        "workshopid":"btw-01",
+        "name": "Hands on Training on 2D Gel Electrophoresis",
+        "description":"LoremIpsum",
+        "organizing_department":"BioTech",
+        "contact_number":"7402389414",
+    
+        "registration_fee": 200,
+        "images":"/Assets/Electrical Safety Training for Engineers 3.jpg"
+    
+    },
+    {
+        "workshopid":"maw-01",
+        "name": "Apti-Tricks to Crack Competitive Exams and Placements",
+        "description":"LoremIpsum",
+        "organizing_department":"Mathematics",
+        "contact_number":"9944199362",
+    
+        "registration_fee": 200,
+        "images":"/Assets/Apti-Tricks to crack competitive exams and placements.jpg"
+    
+    },
+    {
+        "workshopid":"mcw-01",
+        "name": "Building Scalable Full Stack Application Using Cloud",
+        "description":"LoremIpsum",
+        "organizing_department":"MCA",
+        "contact_number":"8300717179",
+    
+        "registration_fee": 200,
+        "images":"/Assets/full.jpg"
+    
+    },
+    {
+        "workshopid":"mcw-02",
+        "name": "Big Data Analytics And Visualization Tools",
+        "description":"LoremIpsum",
+        "organizing_department":"MCA",
+        "contact_number":"8300717179",
+    
+        "registration_fee": 200,
+        "images":"/Assets/Big Data Analytics.jpg"
+    
+    },
+    {
+        "workshopid":"mcw-03",
+        "name": ".NET Framework Mastery for Advanced Development Excellence",
+        "description":"LoremIpsum",
+        "organizing_department":"MCA",
+        "contact_number":"8300717179",
+    
+        "registration_fee": 200,
+        "images":"/Assets/.net.png"
+    
+    },
+    {
+        "workshopid":"mcw-04",
+        "name": "Cross Platform Mobile Application Development Using Thunkable And Flutter",
+        "description":"LoremIpsum",
+        "organizing_department":"MCA",
+        "contact_number":"8300717179",
+    
+        "registration_fee": 200,
+        "images":"/Assets/flutter.webp"
+    
+    }
+    ]

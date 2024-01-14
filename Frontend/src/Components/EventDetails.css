@@ -1,0 +1,58 @@
+
+.event-details-container {
+    background-color: #e5e3e8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+    font-family:'Jura';      
+
+  }
+  .title
+{
+    margin:0 auto;
+    width:100%;
+    max-width: 40rem;
+    font-size: 4.5rem;
+    text-align: center;
+    color:#ffffff;
+    font-family:'Jura';      
+
+}
+  .event-details-title {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .event-details-content p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #ffffff;
+
+  }
+  
+ 
+ 
+  
+  .event-details-container:hover .event-details-title {
+    color: #ff4500; 
+    transition: color 0.3s;
+  }
+  
+  .register-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  

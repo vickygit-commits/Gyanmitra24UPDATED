@@ -1,0 +1,48 @@
+[
+
+
+    {
+        "user_id":"7845125",
+        "name": "Vignesh",
+        "email":"vickytvl2003@gmail.com",
+        "gender": "Male",
+        "password":"vicky2003",
+        "phone": 9626821212,
+        "cname":"Mepco",
+        "ccity": "Sivakasi"
+
+    },
+    {
+        "user_id":"7845124",
+        "name": "Vijesh",
+        "email":"vijesh.moses@gmail.com",
+        "gender": "Male",
+        "password":"vicky200332353425",
+        "phone": 9745742447,
+        "cname":"Mepco",
+        "ccity": "Sivakasi"
+
+    },
+    {
+        "user_id":"7845155",
+        "name": "Harish",
+        "email":"harish1@gmail.com",
+        "gender": "Male",
+        "password":"vicky2003",
+        "phone": 9745742447,
+        "cname":"Mepco",
+        "ccity": "Sivakasi"
+
+    },
+    {
+        "user_id":"7845126",
+        "name": "Subash",
+        "email":"Subash1@gmail.com",
+        "gender": "Male",
+        "password":"vicky2003",
+        "phone": 9745742447,
+        "cname":"Mepco",
+        "ccity": "Sivakasi"
+
+    }
+]

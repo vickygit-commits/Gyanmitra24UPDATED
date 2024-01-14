@@ -1,0 +1,66 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.sectionbody
+{
+    
+    background: url("v1016-b-09.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+section
+{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+span
+{
+    color:#dd1133;
+    font-weight: bold;
+}
+.slider_logo
+{
+    height:300px;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+    width:auto;
+
+}
+.slider_logo .slider_track
+{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(260px * 13);
+}
+.slider_logo .slide1
+{
+    width: 250px;
+    height:400px;
+
+}
+
+@keyframes scroll 
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    
+    100%
+    {
+        transform: translateX(calc(-260px * 13)); /* Adjusted translation based on individual image width and count */
+
+    }
+}

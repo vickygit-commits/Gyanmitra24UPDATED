@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93811af5.css",
+    "main.js": "/static/js/main.90522df1.js",
+    "static/media/pexels-john-guccione-wwwadvergroupcom-4134179.jpg": "/static/media/pexels-john-guccione-wwwadvergroupcom-4134179.3b248eb0512e302bcff1.jpg",
+    "static/media/portrait-young-african-american-man-with-vr-glasses.jpg": "/static/media/portrait-young-african-american-man-with-vr-glasses.6a4fe576f014b412fa36.jpg",
+    "static/media/meta1.png": "/static/media/meta1.9b3e6342a51142f18b2d.png",
+    "static/media/Gyanmitra_24_logo.png": "/static/media/Gyanmitra_24_logo.cab3ecc57bd41226281c.png",
+    "static/media/v1016-b-09.jpg": "/static/media/v1016-b-09.aa28f71a9aea77db9bf9.jpg",
+    "static/media/Mepco_Schlenk_Engineering_College_logo.png": "/static/media/Mepco_Schlenk_Engineering_College_logo.9ac6f88c9487ad2af544.png",
+    "static/media/Mepco-GyanMitra.png": "/static/media/Mepco-GyanMitra.d15dfc186b72ad86d73d.png",
+    "static/media/Event-Trophies.png": "/static/media/Event-Trophies.c114357410fff3b55b21.png",
+    "index.html": "/index.html",
+    "main.93811af5.css.map": "/static/css/main.93811af5.css.map",
+    "main.90522df1.js.map": "/static/js/main.90522df1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93811af5.css",
+    "static/js/main.90522df1.js"
+  ]
+}

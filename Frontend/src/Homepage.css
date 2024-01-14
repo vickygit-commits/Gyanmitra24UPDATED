@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Doodle+Triangles&display=swap');*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#navbar
+{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.155),
+               -3px -3px 5px rgba(0, 0, 0, 0.084);
+    backdrop-filter: blur(30px); 
+    border-style: none;
+}
+.navbar .navbar-brand
+{
+    font-size:25px;
+    color:#0f0f0f
+    
+}
+#navbarSupportedContent a
+{
+    color:#fff;
+    border-bottom: 4px solid transparent;
+}
+#navbarSupportedContent a:hover
+{
+    border-bottom: 2px solid rgb(255, 0, 34,1);
+
+}
+#navbarSupportedContent #login
+{
+    color:#fff;
+    margin-left:5px;
+}
+#navbarSupportedContent #Register
+{
+    background: black;
+    color:#fff;
+    margin-left:5px;
+    border-radius:15px;
+}
+body
+{
+    background:linear-gradient(rgba(244, 242, 242, 0.212),
+                                rgba(0,0,0,1)),
+                                url("vecteezy_abstract-blue-fluid-wave-background_17798503.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+.header-content
+{
+    padding:100px 0 150px 0;
+    
+}
+.content 
+{
+    margin-top :-80px;
+    background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    box-shadow:0 0 20px -6px rgba(0,0,0,0.2);
+    background-size: 300% 300%;
+    animation:color 12s ease-in-out infinite;
+}
+@keyframes color {
+    0%
+    {
+        background-position: 0 50%;
+    }
+    50%
+    {
+        background-position: 100% 50%;
+    }
+    100%
+    {
+        background-position: 0 50%;
+    }
+    
+}
+.content .left
+{
+    padding-top:20px;
+}
+.content .right
+{
+padding:0;
+}
+.text-justify
+{
+    text-align: justify;
+}
+.primary-color
+{
+    color: #dc3545;
+
+}
+.container1
+{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    height:100%;
+    width:100%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.155),
+               -3px -3px 5px rgba(0, 0, 0, 0.084);
+    border-radius: 10px;
+    backdrop-filter: blur(30px); 
+    border-style: none;
+}
+.container1 .row
+{
+    position: relative;
+    width:100%;
+    height:100%;
+    color:#fff;
+    background:#111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.5s;
+}
+.container1 .row:hover
+{
+    transform: translateY(-20px);
+}
+.container1 .row::before
+{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(315deg,#00ff371a,#ff005920);
+
+}
+.container1 .row::after
+{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(315deg,#ff00d450,#00c8ff54);
+    filter:blur(30px);
+}
+.container1 .box span
+{
+    position: absolute;
+    top:6px;
+    left:6px;
+    right:6px;
+    bottom:6px;
+    background: rgba(0,0,0,0.6);
+    z-index:2;
+
+}
+.container1 .content1
+{
+    position: relative;
+    z-index: 10;
+    padding: 20px 20px;
+}
+.container1 .content1 h2
+{
+    font-size:2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.container1 .content1 p
+{
+    font-size:1.1em;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+#Explore
+{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:20px;
+    color:white;
+    cursor:pointer;
+    background-color: rgb(12, 210, 245);
+    border-color:rgb(12, 210, 245);
+    margin-right:8px;
+    font-weight:bold;
+    border:none;
+    transition: opacity 1s,box-shadow 1s;
+    vertical-align: top;
+}
+section
+{
+    width:100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-container1
+{
+
+}

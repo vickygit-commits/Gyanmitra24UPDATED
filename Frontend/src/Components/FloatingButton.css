@@ -1,0 +1,22 @@
+.icon-button {
+    position: fixed;
+    bottom: 80%;
+    right: 2%;
+    height: 40px;
+    background-color: #DD1133;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.icon-button:hover{
+  background-color: white;
+  color:#DD1133;
+}
+
+
+  
+  
