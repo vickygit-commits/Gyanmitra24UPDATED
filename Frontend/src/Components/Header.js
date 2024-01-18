@@ -20,13 +20,13 @@ function Header() {
     dispatch(logout);
   }
   return (
-    <Navbar id="Navbar1" expand="lg" className="bg-body-tertiary" >
+    <Navbar id="Navbar1" expand="lg" className="bg-body-tertiary"  style={{borderBottom:'1px solid ',boxShadow:'rgb(15, 92, 110) 0px 20px 30px -22px'}}>
       <Container >
-        <Navbar.Brand href="#Home"
-        ><a className="basic-navbar-nav" href="/">
-          <img src={logo} width="auto" height="55px" alt="Logo" />
+        <Navbar.Brand href="#Home" 
+        ><a className="basic-navbar-nav" href="/" style={{textDecoration:'none'}}>
+          <img src={logo} style={{width:"92px", height:"43px"}} alt="Logo" /> <p className='d-none d-lg-inline-block' style={{color:'white',fontSize:'15px',fontFamily:'Poppins'}}>Mepco Schlenk Engineering College</p>
         </a></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:'white',padding:'3px'}}  />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto " id="navbarSupportedContent">
             <Nav.Link href="/#Home" >Home</Nav.Link>
