@@ -122,9 +122,7 @@ export default function Event_details() {
             </p>
 )}
             
-            <p style={{color:"red"}}> Note: You can register for any number of events, but you need to pay for only one event. Once paid for any one event, you will be able to register for other events without payment.  </p>
-            <p style={{color:"red"}}> Last Date to register: 12.2.24
-</p>
+
             <p>
               <strong>Rules of the event:</strong>  
               {event.rule ? (
@@ -138,6 +136,9 @@ export default function Event_details() {
                         )}
                         
             </p>
+            <p style={{color:"red"}}> Note: You can register for any number of events, but you need to pay for only one event. Once paid for any one event, you will be able to register for other events without payment.  </p>
+            <p style={{color:"red"}}> Last Date to register: 12.2.24
+</p>
             <center>
           
           {isAuthenticated ? (

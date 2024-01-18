@@ -105,7 +105,7 @@ setTimeout(() => {
           <p>
             <strong>Contact: </strong> {workshop.contact_number}
           </p>
-          <p style={{color:"red"}}> Note: You can register for any number of events, but you need to pay for only one event. Once paid for any one event, you will be able to register for other events without payment.  
+          <p style={{color:"red"}}> Note: You can register in only one workshop.  
 </p>
 <p style={{color:"red"}}> Last Date to register: 12.2.24
 </p>
