@@ -18,10 +18,7 @@ export default function WorkshopDetail() {
       temp=user.workshopPayed;
 
     }
-    if(workshop.organizing_department==='MCA')
-    {
-      alert('The MCA workshops are allowed only for Arts and Science Students alone.')
-    }
+    
   const dispatch = useDispatch();
   const navigate=useNavigate();
   const { id } = useParams();
@@ -37,6 +34,10 @@ export default function WorkshopDetail() {
     e.preventDefault();
     alert("Already registered in a workshop");
   }
+  if(workshop.organizing_department==='MCA')
+    {
+      alert('The MCA workshops are allowed only for Arts and Science Students alone.')
+    }
   const submitHandler=(e)=>
   {
     const valuewithTax=workshop.registration_fee+(workshop.registration_fee*0.04)
