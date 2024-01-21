@@ -18,6 +18,10 @@ export default function WorkshopDetail() {
       temp=user.workshopPayed;
 
     }
+    if(workshop.organizing_department==='MCA')
+    {
+      alert('The MCA workshops are allowed only for Arts and Science Students alone.')
+    }
   const dispatch = useDispatch();
   const navigate=useNavigate();
   const { id } = useParams();
