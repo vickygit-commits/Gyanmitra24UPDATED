@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.082b5ecf.css",
-    "main.js": "/static/js/main.a4e6b668.js",
+    "main.js": "/static/js/main.7d7f09f0.js",
     "static/media/pexels-john-guccione-wwwadvergroupcom-4134179.jpg": "/static/media/pexels-john-guccione-wwwadvergroupcom-4134179.3b248eb0512e302bcff1.jpg",
     "static/media/portrait-young-african-american-man-with-vr-glasses.jpg": "/static/media/portrait-young-african-american-man-with-vr-glasses.6a4fe576f014b412fa36.jpg",
     "static/media/meta1.png": "/static/media/meta1.9b3e6342a51142f18b2d.png",
@@ -12,10 +12,10 @@
     "static/media/Event-Trophies.png": "/static/media/Event-Trophies.c114357410fff3b55b21.png",
     "index.html": "/index.html",
     "main.082b5ecf.css.map": "/static/css/main.082b5ecf.css.map",
-    "main.a4e6b668.js.map": "/static/js/main.a4e6b668.js.map"
+    "main.7d7f09f0.js.map": "/static/js/main.7d7f09f0.js.map"
   },
   "entrypoints": [
     "static/css/main.082b5ecf.css",
-    "static/js/main.a4e6b668.js"
+    "static/js/main.7d7f09f0.js"
   ]
 }
