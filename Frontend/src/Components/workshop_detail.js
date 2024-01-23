@@ -108,9 +108,9 @@ setTimeout(() => {
           <p>
             <strong>Contact: </strong> {workshop.contact_number}
           </p>
-          <p style={{color:"red"}}> Note: You can register in only one workshop.  
+          <p style={{color:"yellow"}}> Note: You can register in only one workshop.  
 </p>
-<p style={{color:"red"}}> Last Date to register: 12.2.24
+<p style={{color:"yellow"}}> Last Date to register: 12.2.24
 </p>
           <center>
           

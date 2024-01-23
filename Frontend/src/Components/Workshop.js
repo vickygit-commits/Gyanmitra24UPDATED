@@ -62,21 +62,21 @@ const email = 'msec@mepcoeng.ac.in';
         <Navbar.Brand href="/workshop" style={{ color:'white'}}
         >Workshops
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:'white',padding:'3px'}} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto ml-1 p-1" id="navbarSupportedContent">
           <Nav.Link href="/workshop">All</Nav.Link>
 
-            <Nav.Link href="/workshops/Civil-Arch" >Cogrid Hocus<br>(Civil/Arch)</br></Nav.Link>
-            <Nav.Link href="/workshops/EEE" >Zwitterion<br>(EEE)</br></Nav.Link>
-            <Nav.Link href="/workshops/ECE-BME" >Erudition<br>(ECE/BME)</br></Nav.Link>
+            <Nav.Link href="/workshops/Civil-Arch" >Cogrid Hocus<br></br>(Civil/Arch)</Nav.Link>
+            <Nav.Link href="/workshops/EEE" >Zwitterion<br></br>(EEE)</Nav.Link>
+            <Nav.Link href="/workshops/ECE-BME" >Erudition<br></br>(ECE/BME)</Nav.Link>
 
-            <Nav.Link href="/workshops/CSE-IT-AIDS" >Vipravuha<br>(CSE/IT/AIDS)</br></Nav.Link>
+            <Nav.Link href="/workshops/CSE-IT-AIDS" >Vipravuha<br></br>(CSE/IT/AIDS)</Nav.Link>
             
-             <Nav.Link href="/workshops/Mech" >Cryptix<br>(Mech)</br></Nav.Link>
-             <Nav.Link href="/workshops/BioTech" >Biologix<br>(BioTech)</br></Nav.Link>
-             <Nav.Link href="/workshops/Mathematics" >Exponents<br>(Maths/Science)</br></Nav.Link>
-             <Nav.Link href="/workshops/MCA" >Cossack<br>(MCA)</br></Nav.Link>
+             <Nav.Link href="/workshops/Mech" >Cryptix<br></br>(Mech)</Nav.Link>
+             <Nav.Link href="/workshops/BioTech" >Biologix<br></br>(BioTech)</Nav.Link>
+             <Nav.Link href="/workshops/Mathematics" >Exponents<br></br>(Maths/Science)</Nav.Link>
+             <Nav.Link href="/workshops/MCA" >Cossack<br></br>(MCA)</Nav.Link>
 
             </Nav>
 
