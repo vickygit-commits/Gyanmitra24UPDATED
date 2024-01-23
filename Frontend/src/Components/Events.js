@@ -53,6 +53,7 @@ const email = 'msec@mepcoeng.ac.in';
       <section id="Home">
         <div className="container">
           <h1 className={`${styles.title} py-4`} >Events</h1>
+          <h2 className="text-center" style={{color:'white',fontWeight:"bold"}}>On 17 / 02 / 2024</h2>
           <hr style={{ color: 'white' }} />
 
           <Navbar id="Navbar1" expand="lg" className="bg-body-tertiary"  >
@@ -65,16 +66,16 @@ const email = 'msec@mepcoeng.ac.in';
           <Nav className="ms-auto ml-1 p-1" id="navbarSupportedContent">
           <Nav.Link href="/event">All</Nav.Link>
 
-          <Nav.Link href="/events/Civil-Arch" >Cogrid Hocus</Nav.Link>
-            <Nav.Link href="/events/EEE" >Zwitterion</Nav.Link>
-            <Nav.Link href="/events/ECE-BioMedical" >Erudition</Nav.Link>
+          <Nav.Link href="/events/Civil-Arch" >Cogrid Hocus<br>(Civil/Arch)</br></Nav.Link>
+            <Nav.Link href="/events/EEE" >Zwitterion<br>(EEE)</br></Nav.Link>
+            <Nav.Link href="/events/ECE-BioMedical" >Erudition<br>(ECE/BME)</br></Nav.Link>
 
-            <Nav.Link href="/events/CSE-IT-AIDS" >Vipravuha</Nav.Link>
+            <Nav.Link href="/events/CSE-IT-AIDS" >Vipravuha<br>(CSE/IT/AIDS)</br></Nav.Link>
             
-             <Nav.Link href="/events/MECH" >Cryptix</Nav.Link>
-             <Nav.Link href="/events/Bio-Technology" >Biologix</Nav.Link>
-             <Nav.Link href="/events/Maths" >Exponents</Nav.Link>
-             <Nav.Link href="/events/MCA" >Cossack</Nav.Link>
+             <Nav.Link href="/events/MECH" >Cryptix<br>(Mech)</br></Nav.Link>
+             <Nav.Link href="/events/Bio-Technology" >Biologix<br>(BioTech)</br></Nav.Link>
+             <Nav.Link href="/events/Maths" >Exponents<br>(Maths/Science)</br></Nav.Link>
+             <Nav.Link href="/events/MCA" >Cossack<br>(MCA)</br></Nav.Link>
 
             </Nav>
 
