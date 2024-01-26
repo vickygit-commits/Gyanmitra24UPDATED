@@ -6,8 +6,12 @@ import {clearAuthError, login} from '../../actions/userActions'
 import { useDispatch, useSelector} from 'react-redux';
 import {toast} from 'react-toastify';
 import { getPaidWorkshop } from '../../actions/PaidWorkshop';
+import { useLocation } from 'react-router-dom';
 export default function Login()
 {
+  const location = useLocation();
+  const { from } = location.state || { from: { pathname: '/' } };
+
     const  [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
     const dispatch=useDispatch();
@@ -24,7 +28,8 @@ export default function Login()
     useEffect(()=>{
         if(isAuthenticated)
         {
-            navigate('/')
+          console.log(from);
+          navigate(from);
 
         }
         if(error)

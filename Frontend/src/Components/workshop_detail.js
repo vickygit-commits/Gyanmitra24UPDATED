@@ -70,8 +70,10 @@ setTimeout(() => {
   {
     e.preventDefault();
     setTimeout(() => {
-      navigate('/login');
+      navigate('/login', { state: { from: window.location.pathname } });
+
     }, 1000);
+    
   }
     return (
       <body  className=" p-0 m-0">
@@ -124,7 +126,7 @@ setTimeout(() => {
   )
 ) : (
   <button className="register-button" onClick={submitHandlerLogin}>
-    Login to register
+    Login to Pay
   </button>
 )}
           </center>

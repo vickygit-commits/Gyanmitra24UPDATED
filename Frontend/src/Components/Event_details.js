@@ -58,7 +58,8 @@ export default function Event_details() {
   {
     e.preventDefault();
     setTimeout(() => {
-      navigate('/login');
+      navigate('/login', { state: { from: window.location.pathname } });
+
     }, 1000);
 
   }  
@@ -151,7 +152,7 @@ export default function Event_details() {
   )
 ) : (
   <button className="register-button" onClick={submitHandlerLogin}>
-    Login to register
+    Login to Pay
   </button>
 )}
           </center>

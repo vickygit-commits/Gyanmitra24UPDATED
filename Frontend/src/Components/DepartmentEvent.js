@@ -63,16 +63,16 @@ function Department_Workshop() {
           <Nav className="ms-auto ml-1 p-1" id="navbarSupportedContent">
           <Nav.Link href="/event">All</Nav.Link>
 
-          <Nav.Link href="/events/Civil-Arch" >Cogrid Hocus</Nav.Link>
-            <Nav.Link href="/events/EEE" >Zwitterion</Nav.Link>
-            <Nav.Link href="/events/ECE-BioMedical" >Erudition</Nav.Link>
+          <Nav.Link href="/events/Civil-Arch" >Cogrid Hocus<br></br>(Civil/Arch)</Nav.Link>
+            <Nav.Link href="/events/EEE" >Zwitterion<br></br>(EEE)</Nav.Link>
+            <Nav.Link href="/events/ECE-BioMedical" >Erudition<br></br>(ECE/BME)</Nav.Link>
 
-            <Nav.Link href="/events/CSE-IT-AIDS" >Vipravuha</Nav.Link>
+            <Nav.Link href="/events/CSE-IT-AIDS" >Vipravuha<br></br>(CSE/IT/AIDS)</Nav.Link>
             
-             <Nav.Link href="/events/MECH" >Cryptix</Nav.Link>
-             <Nav.Link href="/events/Bio-Technology" >Biologix</Nav.Link>
-             <Nav.Link href="/events/Maths" >Exponents</Nav.Link>
-             <Nav.Link href="/events/MCA" >Cossack</Nav.Link>
+             <Nav.Link href="/events/MECH" >Cryptix<br></br>(Mech)</Nav.Link>
+             <Nav.Link href="/events/Bio-Technology" >Biologix<br></br>(BioTech)</Nav.Link>
+             <Nav.Link href="/events/Maths" >Exponents<br></br>(Maths/Science)</Nav.Link>
+             <Nav.Link href="/events/MCA" >Cossack<br></br>(MCA)</Nav.Link>
 
             </Nav>
 
