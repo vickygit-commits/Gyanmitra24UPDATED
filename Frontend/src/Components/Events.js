@@ -74,7 +74,7 @@ const email = 'msec@mepcoeng.ac.in';
             
              <Nav.Link href="/events/MECH" >Cryptix<br></br>(Mech)</Nav.Link>
              <Nav.Link href="/events/Bio-Technology" >Biologix<br></br>(BioTech)</Nav.Link>
-             <Nav.Link href="/events/Maths" >Exponents<br></br>(Maths/Science)</Nav.Link>
+             <Nav.Link href="/events/Maths" >Exponents<br></br>(Common)</Nav.Link>
              <Nav.Link href="/events/MCA" >Cossack<br></br>(MCA)</Nav.Link>
 
             </Nav>

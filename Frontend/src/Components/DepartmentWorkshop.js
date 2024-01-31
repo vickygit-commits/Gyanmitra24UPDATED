@@ -71,7 +71,7 @@ function Department_Workshop() {
             
              <Nav.Link href="/workshops/Mech" >Cryptix<br></br>(Mech)</Nav.Link>
              <Nav.Link href="/workshops/BioTech" >Biologix<br></br>(BioTech)</Nav.Link>
-             <Nav.Link href="/workshops/Mathematics" >Exponents<br></br>(Maths/Science)</Nav.Link>
+             <Nav.Link href="/workshops/Mathematics" >Exponents<br></br>(Common)</Nav.Link>
              <Nav.Link href="/workshops/MCA" >Cossack<br></br>(MCA)</Nav.Link>
 
             </Nav>

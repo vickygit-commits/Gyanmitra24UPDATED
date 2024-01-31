@@ -25,7 +25,7 @@ const FloatingButton = ({ onClick }) => {
             <strong>{event.name}</strong> - {event.time}
           </Dropdown.Item>
         ))}
-        <Dropdown.Item key={'Brochure'}><a href='./Assets/poster.pdf' target="_blank" rel="noreferrer">View Brochure</a></Dropdown.Item>
+        <a href='./Assets/poster.pdf' target="_blank" rel="noreferrer">View Brochure</a>
       </Dropdown.Menu>
     </Dropdown></div>
   );
