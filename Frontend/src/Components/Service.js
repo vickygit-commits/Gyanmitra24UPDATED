@@ -101,7 +101,7 @@ const email = 'msec@mepcoeng.ac.in';
                 color:'white',
                 textAlign:'justify'
               }}>
-          Welcome to Mepco Schlenk Enigneering College, a vibrant hub of knowledge, innovation, and endless possibilities! Nestled in the heart of Sivakasi, our institution stands as a beacon of academic excellence, where students embark on transformative journeys, fueled by curiosity, guided by expert faculty, and surrounded by a community of like-minded individuals.
+          Welcome to Mepco Schlenk Engineering College, a vibrant hub of knowledge, innovation, and endless possibilities! Nestled in the heart of Sivakasi, our institution stands as a beacon of academic excellence, where students embark on transformative journeys, fueled by curiosity, guided by expert faculty, and surrounded by a community of like-minded individuals.
 At MSEC, we believe in the power of education to shape futures and inspire greatness. Our commitment to foster a holistic learning environment is reflected in a diverse range of academic programs, cutting-edge research initiatives, and a plethora of extracurricular activities that cater to every passion and interest.
                  
          </p>
@@ -486,7 +486,8 @@ These interactive sessions are facilitated by industry experts, seasoned profess
       <div className="col-md-6 col-lg-12">
         <br/>
         <p className='foot' style={{fontSize: '13px',color:"white"}}>©️2024, Mepco Schlenk Engineering College. All Rights Reserved.<br/>
-        Designed and Developed by <a href="https://github.com/coffee-loves-code-2003" style={{fontSize: '13px',padding:'0px 10px',backgroundImage:'linear-gradient(to right,crimson,darkblue)',color:'white',borderRadius:'8px',padding:'1px 10px',textDecoration:'none'}} target='_blank'>Vignesh S</a> (3rd-IT) and <a href="https://vijeshpethuram.web.app" style={{fontSize: '13px',padding:'1px 10px',backgroundImage:'linear-gradient(to right,crimson,darkblue)',color:'white',borderRadius:'8px',padding:'0px 10px',textDecoration:'none'}} target='_blank'> Vijesh Pethuram K</a> (3rd-IT)<br/> Additional Contributors: <a href="https://jayanthdev.web.app" style={{fontSize: '13px',color:'white',textDecoration:'none'}} target='_blank'>Jayanth Kumar R V (3rd-IT)</a> and <a href="#" style={{fontSize: '13px',color:'white',textDecoration:'none'}} target='_blank'>Prabhu R</a> (3rd-IT)</p>
+        Designed and Developed by <a href="https://github.com/coffee-loves-code-2003" style={{fontSize: '13px',padding:'0px 10px',backgroundImage:'linear-gradient(to right,crimson,darkblue)',color:'white',borderRadius:'8px',padding:'1px 10px',textDecoration:'none'}} target='_blank'>Vignesh S</a> (3rd-IT) and <a href="https://vijeshpethuram.web.app" style={{fontSize: '13px',padding:'1px 10px',backgroundImage:'linear-gradient(to right,crimson,darkblue)',color:'white',borderRadius:'8px',padding:'0px 10px',textDecoration:'none'}} target='_blank'> Vijesh Pethuram K</a> (3rd-IT)<br/>
+         Additional Contributors: <a href ="https://github.com/Mohamedaslam227" style={{fontSize: '13px',color:'white',textDecoration:'none'}} target="_blank">Mohamed Aslam (3rd AIDS)</a>, <a href ="https://github.com/dineshpythonista" style={{fontSize: '13px',color:'white',textDecoration:'none'}} target="_blank">Dinesh (3rd AIDS)</a> ,<a href="https://jayanthdev.web.app" style={{fontSize: '13px',color:'white',textDecoration:'none'}} target='_blank'>Jayanth Kumar R V (3rd-IT)</a> and <a href="https://github.com/PrabhuRamamoorthy" style={{fontSize: '13px',color:'white',textDecoration:'none'}} target='_blank'>Prabhu R</a> (3rd-IT)</p>
         
         </div>
         </center>

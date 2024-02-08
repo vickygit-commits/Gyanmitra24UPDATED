@@ -34,7 +34,10 @@ function Header() {
             <Nav.Link href="/event" >Events</Nav.Link>
             <Nav.Link href="/#about" >About Us</Nav.Link>
             <Nav.Link href="/#location" >Contact Us</Nav.Link>
-
+            {user?.role==="admin" ?(
+            
+            <Nav.Link href="/erp" >Admin</Nav.Link>
+            ):(<></>)}
             </Nav>
             <Nav className="ms-auto" id="navbarSupportedContent">
   {isAuthenticated ? (

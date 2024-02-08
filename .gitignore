@@ -1,2 +1,4 @@
 
 Backend/config/config.env
+Frontend/src/Components/Payment.js
+Frontend/src/Components/EventPayment.js

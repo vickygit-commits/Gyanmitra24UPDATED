@@ -33,6 +33,8 @@ import EventPayment from './Components/EventPayment';
 import { getPaidWorkshop } from './actions/PaidWorkshop';
 import {getPaidEvent} from './actions/PaidEvents';
 import { useSelector } from 'react-redux';
+import Admin from './Components/admin';
+
 function App() {
   // const [stripeApiKey,setStripeApiKey]=useState("")
   const{isAuthenticated,user}=useSelector((state)=>state.authState);
@@ -55,7 +57,10 @@ function App() {
       <Header/>
       <ToastContainer theme='dark'/>
       <Routes>
+
         <Route path="/" element={<Service />} />
+        <Route path="/erp" element={<Admin/>} />
+
         <Route path="/workshop" element={<Workshop />} />
         <Route path="/workshop/:id" element={<Workshop_details/>}/>
         <Route path="/event" element={<Event />} /> 
