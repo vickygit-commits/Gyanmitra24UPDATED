@@ -78,7 +78,7 @@ function App() {
 
         
         <Route path="/Payment" element={<ProtectedRoute><Payment/></ProtectedRoute>} />
-        <Route path="/eventPayment" element={<ProtectedRoute><EventPayment/></ProtectedRoute>} />
+        {/* <Route path="/eventPayment" element={<ProtectedRoute><EventPayment/></ProtectedRoute>} /> */}
 
         <Route path="/success" element={<Success_Page />} />
         <Route path="/failure" element={<Failure_Page />} />

@@ -24,6 +24,10 @@ export default function Event_details() {
   useEffect(() => {
     dispatch(getevent(id));
   }, [dispatch, id]);
+  const registrationClosed=(e)=>
+  {
+    alert("Regitration Closed")
+  }
   const submitHandler=(e)=>
   {
     const valuewithTax=event.registration_fee+(event.registration_fee*0.04)
@@ -144,14 +148,14 @@ export default function Event_details() {
           
           {isAuthenticated ? (
   temp === "Payed" ? (
-    <button className="register-button" onClick={RegisteredAlready}>Register Now</button>
+    <button className="register-button" onClick={registrationClosed}>Register Now</button>
   ) : (
-    <button className="register-button" onClick={submitHandler}>
+    <button className="register-button" onClick={registrationClosed}>
       Register Now
     </button>
   )
 ) : (
-  <button className="register-button" onClick={submitHandlerLogin}>
+  <button className="register-button" onClick={registrationClosed}>
     Login to Pay
   </button>
 )}

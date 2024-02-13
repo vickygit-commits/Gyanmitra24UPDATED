@@ -53,7 +53,10 @@ const email = 'msec@mepcoeng.ac.in';
 
     <Fragment>
     <MetaData title={'Home'}/>
+    
     <body className={`${styles.sectionbody}`}>
+    <marquee width="100%" direction="left" height="100%" style={{color:'#dd1133',fontWeight:'bold',fontSize:'25px'}}>
+    Due to overwhelming response, Event registration is closed and also spot registration is not allowed.</marquee>
       <FloatingButton />
       <div className= {`${styles.glass_content} container-fluid col-10`}>
         <section id="Home" 
