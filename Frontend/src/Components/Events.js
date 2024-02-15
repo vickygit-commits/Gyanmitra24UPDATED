@@ -50,8 +50,8 @@ const email = 'msec@mepcoeng.ac.in';
     
     <Fragment>
     <body className={`${styles.workshopbody} `}>
-    <marquee width="100%" direction="left" height="100%" style={{color:'#dd1133',fontWeight:'bold',fontSize:'25px'}}>
-    Due to overwhelming response, Event registration is closed and also spot registration is not allowed.</marquee>
+    <marquee width="100%" direction="left" height="100%" style={{color:'white',fontWeight:'bold',fontSize:'25px'}}>
+    Due to overwhelming response, Event and workshop registrations are closed and spot registration is not allowed. Thank You!!!</marquee>
       <section id="Home">
         <div className="container">
           <h1 className={`${styles.title} py-4`} >Events</h1>

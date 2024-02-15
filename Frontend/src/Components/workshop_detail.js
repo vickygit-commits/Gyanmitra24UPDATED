@@ -27,7 +27,10 @@ export default function WorkshopDetail() {
     
 
   }, [dispatch, id]);
-
+  const registrationClosed=(e)=>
+  {
+    alert("Registration Closed")
+  }
   const RegisteredAlready=(e)=>
   {
     e.preventDefault();
@@ -118,14 +121,14 @@ setTimeout(() => {
           
           {isAuthenticated ? (
   temp === "Payed" ? (
-    <button className="btn btn-secondary" onClick={RegisteredAlready}>Workshop already registered</button>
+    <button className="btn btn-secondary" onClick={registrationClosed}>Workshop already registered</button>
   ) : (
-    <button className="register-button" onClick={submitHandler}>
+    <button className="register-button" onClick={registrationClosed}>
       Register Now
     </button>
   )
 ) : (
-  <button className="register-button" onClick={submitHandlerLogin}>
+  <button className="register-button" onClick={registrationClosed}>
     Login to Pay
   </button>
 )}

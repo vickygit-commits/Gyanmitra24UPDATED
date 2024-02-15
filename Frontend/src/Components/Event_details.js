@@ -26,7 +26,7 @@ export default function Event_details() {
   }, [dispatch, id]);
   const registrationClosed=(e)=>
   {
-    alert("Regitration Closed")
+    alert("Registration Closed")
   }
   const submitHandler=(e)=>
   {
