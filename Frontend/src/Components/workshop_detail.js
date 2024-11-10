@@ -123,7 +123,7 @@ setTimeout(() => {
   temp === "Payed" ? (
     <button className="btn btn-secondary" onClick={registrationClosed}>Workshop already registered</button>
   ) : (
-    <button className="register-button" onClick={registrationClosed}>
+    <button className="register-button" onClick={submitHandler}>
       Register Now
     </button>
   )
